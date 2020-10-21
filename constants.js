@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-const PRODUCTION = process.env.NODE_ENV === "production";
+// const PRODUCTION = process.env.NODE_ENV === "production";
 
 // Set API_HOST to prod host for production builds.
 // const DEV_API_HOST = 'https://hoohacks-2020-272521.appspot.com'; // flask server
