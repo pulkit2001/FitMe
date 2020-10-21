@@ -25,7 +25,7 @@ function getPoseVector(pose) {
 
 // Cosine similarity as a distance function. The lower the number, the closer // the match
 // poseVector1 and poseVector2 are a L2 normalized 34-float vectors (17 keypoints each
-// with an x and y. 17 * 2 = 32)
+// with an x and y. 17 * 2 = 32
 function cosineDistanceMatching(poseVector1, poseVector2) {
   const cosineSimilarity = similarity(poseVector1, poseVector2);
   const distance = 2 * (1 - cosineSimilarity);
